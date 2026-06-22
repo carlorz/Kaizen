@@ -87,6 +87,26 @@ header a:hover{
     text-shadow: 0 2px 10px rgba(179, 143, 68, 0.4);
 }
 
+.logo-contenedor{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-img{
+    height: 35px;
+    width: auto;
+    object-fit: contain;
+}
+
+.logo-texto{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 #hero{
     display: flex;
     align-items: center;
