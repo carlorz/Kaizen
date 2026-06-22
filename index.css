@@ -61,6 +61,7 @@ header .logo{
 header .logo:hover,
 h1:hover, h2:hover, h3:hover, p:hover{
     transform: translateY(-3px) scale(1.05);
+    text-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
     z-index: 1;
 }
 
